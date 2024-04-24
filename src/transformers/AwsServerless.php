@@ -33,7 +33,7 @@ class AwsServerless extends Component implements TransformerInterface
     ];
 
     public static array $formatTranslate = [
-        'jpg' => 'jpeg'
+        'jpg' => 'jpeg',
         'JPG' => 'jpeg',
         'JPEG' => 'jpeg',
         'PNG' => 'png'
