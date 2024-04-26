@@ -1,5 +1,10 @@
 # AWS Serverless Image Handler transformer for Imager X Changelog
 
+## 3.0.1 - 2024-04-26
+
+### Fixed
+- Fixed an issue with uppercase file extensions (thanks, @chadwells).
+
 ## 3.0.0 - 2024-02-11
 
 ### Added
