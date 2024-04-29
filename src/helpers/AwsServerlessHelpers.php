@@ -40,11 +40,11 @@ class AwsServerlessHelpers
 
         $imagePath = $image->getPath();
 
-        return ltrim(
+        return str_replace('//','/',ltrim(
             ($fsSubfolder ? trim(App::parseEnv($fsSubfolder), '/') : '').'/'.
             ($volumeSubfolder ? trim(App::parseEnv($volumeSubfolder), '/') : '').'/'.
             $imagePath,
-            '/');
+            '/'));
     }
 
     /**
